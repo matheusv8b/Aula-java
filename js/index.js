@@ -1,5 +1,7 @@
 //Inserindo um Texto no Paragrafo 
 
+
+/*
 document.getElementById("texto").innerHTML = 
 "Meu primeiro Texto <b>JS</b>!";
 
@@ -97,6 +99,8 @@ console.log(carro.completo());
 //EVENTOS
 
 //onclick
+
+/*
 function eventoClick(){
     document.body.style.backgroundColor = "blue";
 }
@@ -115,4 +119,24 @@ function viraVermelho() {
     let div = document.getElementById("teste");
     div.style.backgroundColor = "red";
 }
+*/
+
+
+//ARRAYS______________________________________________________________________________________________________________
+
+//const lista = ["arroz", "feijão", "macarrão", "leite", "café"];
+//lista[0] = "pão";
+
+//console.log(lista);
+
+
+const pessoa = ["Matheus", "Henrique", 30, "teste"]; //array
+
+pessoa.push("Brasileiro");
+
+console.log(pessoa);
+//const eu = {nome:"Matheus", sobrenome:"Henrique", idade:30}; //Objeto
+
+//eu.nome;
+//pessoa[0];
 
